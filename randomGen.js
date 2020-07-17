@@ -6,6 +6,7 @@ function buildProjectIdea() {
     document.getElementById("result").innerHTML = result;
 }
 
+// Returns a random element of the following assortment of *** common nouns.
 function randomNounGen() {
     var nouns = ['abbey', 'academy', 'accident', 'accordion', 'actor', 'admiral', 'admirer', 'adventure', 'advertisement', 'afternoon', 'agent', 'aircraft', 
     'airport', 'airstrip', 'aisle', 'alarm-clock', 'album', 'alchemist', 'alcohol', 'alert', 'algae', 'algebra', 'alibi', 'alien', 'alligator', 'ally', 'almond',
@@ -39,6 +40,8 @@ function randomNounGen() {
     return randomNoun;
 };
 
+
+// Returns a random element of the following assortment of *** common adjectives.
 function randomAdjGen() {
     var adjectives = ['abandoned', 'able', 'absolute', 'academic', 'acceptable', 'acclaimed', 'accomplished', 'accurate', 'aching', 'acidic', 'acrobatic', 'active', 'actual',
     'adept', 'admirable', 'admired', 'adolescent', 'adorable', 'adored', 'advanced', 'adventurous', 'affectionate', 'afraid', 'aged', 'aggravating', 'aggressive', 'agile', 
