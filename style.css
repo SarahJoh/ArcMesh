@@ -1,0 +1,358 @@
+/* -------------------------- fonts -------------------------- */
+@font-face {
+    font-family: "Abril";
+    src: url("D:/_UNI/Webprojekt/SourceCode/fonts/AbrilFatface-Regular.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Dosis";
+    src: url("D:/_UNI/Webprojekt/SourceCode/fonts/Dosis-VariableFont_wght.ttf") format("truetype"); 
+}
+
+
+/* -------------------------- Navigation bar -------------------------- */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color:rgba(255, 255, 255, 1);
+    text-align: center;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #333333;
+    text-align: center;
+    font-family: Dosis;
+    font-weight: normal;
+    padding: 16px 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #36aacc; 
+    transform: scaleX(0);  
+    transition: transform 300ms ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 0px;
+} 
+
+.navbar a:hover:after {
+    transform: scaleX(1.5); 
+}
+
+.navbar a.current {
+    font-weight: bold;
+}
+
+.navbar a.current:after {
+    display: block;
+    border-bottom: solid 5px #36aacc; 
+    transform: scaleX(1.5);  
+    margin-bottom: 0px
+}
+
+/* -------------------------- Front page (index) --------------------------*/
+body#index {
+    background-image: url("https://imgur.com/5Jzr3WQ.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0% 40%;
+    margin: 0px; 
+}
+
+p#msg {
+    font-size: 100px;
+    font-family: Abril;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin: 350px;
+    margin-bottom: 350px;
+}
+
+#bg_block {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 800px;
+    background-color:rgba(200, 200, 200, 0.5);
+}
+
+/* -------------------------- Text format -------------------------- */
+.maintext {
+    font-size: 25px;
+    font-family: Dosis;
+    color: black;
+}
+
+.maintextblue {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Dosis;
+    color: #36aacc;
+}
+
+.subpoints a {
+    font-size: 20px;
+    color: #36aacc; 
+
+}
+
+/* -------------------------- Info boxes -------------------------- */
+.subpoints {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .icon1 {
+      position: absolute;
+      z-index: 50;
+      top: 60px;
+      left: 210px;
+  }
+
+  .icon2 {
+      position: absolute;
+      z-index: 51;
+      top: 60px;
+      left: 810px;
+  }
+
+   .icon3 {
+    position: absolute;
+    z-index: 52;
+    top: 60px;
+    right: 210px;
+}
+
+  .first, .second, .third {
+    position: absolute;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    font-family: Abril;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .first {
+    left: 0;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+  }
+  .second {
+    left: 0;
+    margin-left: 700px;
+    margin-top: 200px;
+  }
+
+  .third {
+    right: 0;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+.bg2 {
+    display: block;
+    margin-top: 0px;
+    width: 100%;
+    height: 900px;
+    background-color:rgba(200, 200, 200, .8);
+}
+
+/* -------------------------- The footer -------------------------- */
+.bottom {
+    display: block;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    background-color:rgba(255, 255, 255, .9);
+}
+
+/* -------------------------- Random generator -------------------------- */
+.transp_bg {
+    position: relative;
+    height: 800px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.white_bg {
+    position: absolute;
+    text-align: center;
+    height: 700px;
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.white_bar {
+    height: 200px;
+    width: 1000px;
+    margin-top: 290px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.ideaGenHeader {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Abril;
+    font-size: 80px;
+}
+
+.ideaGenSubHeader {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 180px;
+    font-family: Dosis;
+    font-size: 40px;
+    color: #36aacc;
+}
+
+#result {
+    position: absolute;
+    left: -10%;
+    right: 10%;
+    margin-left: 210px;
+    margin-top: 340px;
+    font-family: Dosis;
+    font-size: 75px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+button:focus{outline:none !important;}
+
+.btn {
+    position: absolute;
+    background: #2c8fad;
+    border: 10px outset #36aacc;
+    font-family: Abril;
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    margin-left: -110px;
+    margin-top: 550px;
+    height: 100px;
+    width: 200px;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    transition: .1s ease-in-out;
+    border: 10px outset #36aacc;
+    background: #2c8fad;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+
+/* -------------------------- 3D-Models -------------------------- */
+
+
+/* -------------------------- Contact ---------------------------- */
+.outerFormBox {
+    position: relative;
+    background: rgba(255, 255, 255, .5);
+    height: 1100px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.innerFormBox {
+    position: absolute;
+    background: rgba(255, 255, 255, .8);
+    width: 89%;
+    height: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.innerFormBox p {
+    text-align: center;
+    font-family: Abril;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+form {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 190px;
+    border: 0;
+}
+
+form input {
+    font-size: 30px;
+    width: 500px;
+    border: 0;
+    font-family: Dosis;
+    font-weight: bold;
+}
+
+form textarea {
+    resize: none;
+    font-size: 22px;
+    width: 500px;
+    border: 0;
+    font-family: Dosis;
+    font-weight: bold;
+}
+
+form button {
+    margin-top: 50px;
+    background: #2c8fad;
+    border: 10px outset #36aacc;
+    font-family: Abril;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    height: 80px;
+    width: 150px;
+}
+
+form button:hover {
+    transition: .08s ease-in-out;
+    border: 10px outset #36aacc;
+    background: #2c8fad;
+    transform: scale(1.1);
+}
+
+form button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
