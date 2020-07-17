@@ -1,11 +1,11 @@
 /* -------------------------- fonts -------------------------- */
 @font-face {
     font-family: "Abril";
-    src: url("D:/_UNI/Webprojekt/SourceCode/fonts/AbrilFatface-Regular.ttf") format("truetype"); 
+    src: url("fonts/AbrilFatface-Regular.ttf") format("truetype"); 
 }
 @font-face {
     font-family: "Dosis";
-    src: url("D:/_UNI/Webprojekt/SourceCode/fonts/Dosis-VariableFont_wght.ttf") format("truetype"); 
+    src: url("fonts/Dosis-VariableFont_wght.ttf") format("truetype"); 
 }
 
 
