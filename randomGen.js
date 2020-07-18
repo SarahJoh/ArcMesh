@@ -15,7 +15,7 @@ function randomNounGen() {
     'anteater', 'antelope', 'anvil', 'aorta', 'apartment', 'ape', 'apocalypse', 'apothecary', 'apple', 'appointment', 'apricot', 'apron', 'arc', 'arch', 'archeologist',
     'arcade', 'arm', 'armadillo', 'arnament', 'armchair', 'armor', 'army', 'aroma', 'arrest', 'arrow', 'arson', 'artillery', 'artisan', 'artist', 'ascent', 'asphalt',
     'assassin', 'assassination', 'assault', 'asteroid', 'astronaut', 'astronomer', 'asymmetry', 'athlete', 'atmosphere', 'atom', 'attack', 'attic', 'attorney', 'auction',
-    'auctioneer', 'audience', 'auditorium', 'aura', 'author', 'authority', 'autograph', 'automaton', 'auto', 'autopsy', 'autumn', 'avenue', 'avocado', 'awakening',
+    'auctioneer', 'audience', 'auditorium', 'aura', 'author', 'authority', 'autograph', 'automaton', 'autopsy', 'autumn', 'avenue', 'avocado', 'awakening',
     'award', 'axe',
     'baby', 'bachelor', 'background', 'backpack', 'backyard', 'bacon', 'bacteria', 'badge', 'badminton', 'bag', 'baggage', 'bagpipe', 'bait', 'baker', 'bakery', 
     'balance', 'balcony', 'ball', 'ballerina', 'ballett', 'balloon', 'ballplayer', 'banana', 'band', 'bandage', 'bandit', 'bandwagon', 'bang', 'banjo', 'bank', 'banner',
