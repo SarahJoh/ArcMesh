@@ -77,7 +77,7 @@ p#name {
 
 /* -------------------------- Front page (index) --------------------------*/
 body#index {
-  background-image: url("https://imgur.com/5Jzr3WQ.png");
+  background-image: url("bilder/3d_printer_02_blackwhite.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
@@ -318,7 +318,7 @@ button:focus {
 }
 
 .bgTwo {
-    width: 95%;
+    width: 92%;
     height: 100%;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.8);
@@ -372,7 +372,6 @@ button:focus {
 
 .item {
     float: left;
-    display: absolute;
     margin-top: 50px;
     margin-left: 100px;
     margin-bottom: 100px;
@@ -394,7 +393,7 @@ button:focus {
     left: 200px;
 }
 
-#images {
+.images {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -433,7 +432,7 @@ button:focus {
 .innerFormBox p {
   text-align: center;
   font-family: Dosis;
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   color: #36aacc;
   margin-top: -20px;
