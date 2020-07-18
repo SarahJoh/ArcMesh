@@ -505,3 +505,65 @@ form button:active {
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
 }
+
+/* -------------------------- Privacy Policy/Legal Disclosure ---------------------------- */
+
+.textbody {
+    position: relative;
+    font-family: Dosis;
+    font-size: 18px;
+    left: 80px;
+    max-width: 700px;
+}
+
+.outerBox {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    height: 2000px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.innerBox {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 89%;
+    height: 95%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p#blue {
+    text-align: center;
+  font-family: Dosis;
+  font-size: 25px;
+  font-style: italic;
+  color: #36aacc;
+  margin-top: -20px;
+}
+
+.innerBox h1 {
+    text-align: center;
+  font-family: Abril;
+  font-weight: lighter;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.innerBox h2 {
+  font-family: Abril;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.innerBox h3 {
+    font-family: Abril;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
