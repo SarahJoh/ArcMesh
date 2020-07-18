@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Seperating a joined mesh | ArcMesh</title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="index">
+    <div class="navbar">
+      <img id="logo" src="bilder/logo.png" alt="Logo" />
+      <p id="name">ArcMesh</p>
+      <a href="index.html">Home</a>
+      <a href="tutorials.html">Tutorials & Tips</a>
+      <a href="models.html">3D-Models</a>
+      <a href="ideagen.html">Idea Generator</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="bgOne">
+      <div class="bgTwo">
+        <h2>Seperating a joined mesh<br />with 'Select Linked'</h2>
+        <p>Blender Quick Tip</p>
+        <div class="filler" style="height: 50px;"></div>
+        <span class="mainText"
+          >Whenever a model or part of a model consists of multiple elements it
+          is commom to join (CTRL + J)<br />those elements together. This is
+          being done for three main reasons:<br /><br />- Selecting multiple
+          elements, which will likely be moved/transformed together anyway,
+          faster.<br /><br />- Improving performance in large scenes.<br /><br />-
+          Being able to set a single origin for all elements, which makes
+          transformations more precise.<br /><br />After joining the mesh you
+          obviously can't select the individual elements in Object Mode
+          anymore,<br />
+          but what if you need to access a specific element again? Blenders
+          'Select Linked' function makes<br />this possible. Let's look at the
+          following game asset, which consists of multiple elements and has<br />been
+          joined into one mesh: </span
+        ><br /><br />
+        <img
+          id="images"
+          height="700px"
+          src="bilder/selectlinked_01.png"
+          alt="Joined mesh"
+        />
+        <p>A joined mesh (as indicated by the orange line around it).</p>
+        <span class="mainText"
+          >With the mesh still selected we switch into Object Mode (TAB). Using
+          the 'Select Linked' function from here<br />is actually really simple:
+          We just hover over the individual element, that we want to select, and
+          press 'L'.
+        </span>
+        <img
+          id="images"
+          height="700px"
+          src="bilder/selectlinked_02.png"
+          alt="Specific element selected"
+        />
+        <span class="mainText"
+          >As you can see it was possible to select the individual element.
+          Additionally a window popped up in the<br>bottom left corner in which you
+          can change the mode of the function, but for me the regular mode<br>(which
+          calculates the selection based on the geometry, specifically the
+          direction of the normals) has<br>worked in pretty much any case.
+        </span>
+        <div class="filler" style="height: 50px;"></div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <a href="legaldisclosure.html">Legal Disclosure</a>
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <p>© 2020 ArcMesh</p>
+    </div>
+  </body>
+</html>
