@@ -20,6 +20,23 @@
     z-index: 999;
 }
 
+img#logo {
+    position: absolute;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: -510px;
+    width: 60px;
+}
+
+p#name {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 6px;
+    font-family: Dosis;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
 .navbar a {
     display: inline-block;
     color: #333333;
