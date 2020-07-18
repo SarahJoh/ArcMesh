@@ -200,11 +200,11 @@ p#msg {
   text-align: center;
   bottom: 0px;
   width: 100%;
-  height: 60px;
-  background-color: rgba(255, 255, 255, 0.9);
+  height: 50px;
+  background-color: white;
   font-family: Dosis;
   font-size: 22px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .bottom a {
@@ -214,7 +214,7 @@ p#msg {
 
 .bottom p {
   display: inline;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* -------------------------- Random generator -------------------------- */
@@ -338,7 +338,7 @@ button:focus {
     font-family: Dosis;
     text-align: center;
     margin-top: -20px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     font-size: 30px;
     font-style: italic;
     color: #36aacc;
@@ -352,6 +352,7 @@ button:focus {
     color: #36aacc;
     top: 8px;
     left: 20px;
+    bottom: 0px;
 }
 
 .filetypes {
@@ -360,6 +361,7 @@ button:focus {
     font-size: 16px;
     top: 15px;
     left: 20px;
+    bottom: 0px;
 }
 
 .firstRow {
@@ -375,13 +377,29 @@ button:focus {
     margin-left: 100px;
     margin-bottom: 100px;
     width: 300px;
-    height: 300px;
+    height: 330px;
     background-color: white;
 }
 
 .filler {
-    height: 200px;
+    width: 100%;
     visibility: hidden;
+}
+
+.mainText {
+    position: relative;
+    font-family: Dosis;
+    font-size: 22px;
+    top: 10px;
+    left: 200px;
+}
+
+#images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------- Contact ---------------------------- */
