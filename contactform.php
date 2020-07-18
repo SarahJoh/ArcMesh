@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+</head>
+<body>
 <?php
 
     if(isset($_POST['submit'])) {
@@ -12,7 +18,8 @@
         $txt = "Neue Mail von ".$name." erhalten.\n\n".$message;
 
         mail($mailTo, $subject, $txt, $headers);
-
-        header("Location: index.php?mailsent");
+        echo "Your mail has been sent.";
     }
 ?>
+</body>
+</html>
