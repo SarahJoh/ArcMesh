@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact</title>
-</head>
-<body>
 <?php
         $name = $_POST['name'];
         $mailFrom = $_POST['email'];
@@ -17,5 +11,3 @@
         mail($mailTo, $subject, $txt, $headers);
         echo "Your mail has been sent.";
 ?>
-</body>
-</html>
