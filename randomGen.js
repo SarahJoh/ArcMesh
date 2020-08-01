@@ -123,7 +123,7 @@ function randomAdjGen() {
     'even', 'evergreen', 'everlasting', 'every', 'evil', 'exalted', 'excellent', 'excitable', 'excited', 'exciting', 'exemplary', 'exhausted', 'exotic', 'expensive', 'experienced',
     'expert', 'extra-large', 'extra-small', 'extroverted',
     'fabulous', 'failing', 'faint', 'fair', 'faithful', 'fake', 'false', 'familiar', 'famous', 'fancy', 'fantastic', 'far', 'fast', 'fat', 'fatal', 'fatherly', 'favorable', 'favorite',
-    'fearful', 'fearless', 'feisty', 'feline', 'female', 'feminine', 'few', 'filthy', 'fine', 'finished', 'firm', 'first', 'fitting', 'fixed', 'flaky', 'flamboyant', 'flashy', 'flat', 
+    'fearful', 'fearless', 'feisty', 'feline', 'female', 'feminine', 'filthy', 'fine', 'finished', 'firm', 'first', 'fitting', 'fixed', 'flaky', 'flamboyant', 'flashy', 'flat', 
     'flawed', 'flawless', 'flickering', 'flimsy', 'flowery', 'fluffy', 'fluid', 'flustered', 'focused', 'fond', 'foolish', 'forceful', 'formal', 'forsaken', 'fortunate', 'fragrant',
     'frayed', 'free', 'French', 'frequent', 'fresh', 'friendly', 'frightened', 'frightening', 'frigid', 'frivolous', 'frosty', 'frozen', 'fumbling', 'functional', 'funny', 'fuzzy',
     'gargantuan', 'generous', 'gentle', 'genuine', 'giant', 'gifted', 'gigantic', 'giving', 'glamorous', 'glaring', 'glass', 'gleaming', 'gleeful', 'glistening', 'glittering', 
